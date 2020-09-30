@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPI_Catalogo</name>
+    </assembly>
+    <members>
+        <member name="M:WebAPI_Catalogo.Controllers.AutorizaController.RegisterUser(WebAPI_Catalogo.DTOs.UsuarioDTO)">
+            <summary>
+            Registra um novo usuário
+            </summary>
+            <param name="model">Um objeto usuarioDTO</param>
+            <returns>Status 200 e o token para o cliente</returns>
+        </member>
+        <member name="M:WebAPI_Catalogo.Controllers.AutorizaController.Login(WebAPI_Catalogo.DTOs.UsuarioDTO)">
+            <summary>
+            Verifica as credenciais de um usuário
+            </summary>
+            <param name="userInfo">Um objeto do tipo usuarioDTO</param>
+            <returns>Status 200 e o token para o cliente</returns>
+            <remarks>Retorna status 200 e o token</remarks>
+        </member>
+    </members>
+</doc>
